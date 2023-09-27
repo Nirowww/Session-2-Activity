@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en"> <!--Attribute used: lang-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Session 2 Activity</title>
+    </head>
+    <body>
+        <h1>Session 2 Activity - Niro Kein Brazil</h1>
+        <hr>
+        <h2>Soja the Cat</h2>
+        <figure>
+            <img src="soja.jpg" alt="Lil Lion" width="450px" height="500px"> <!---Attributes used: src, alt, width, height-->
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="#about" title="About Soja">About Soja</a></li> <!--Attributes used: href, title-->
+                <li><a href="#gallery" title="Pictures of Soja">Gallery</a></li>
+                <li><a href="#videos" title="Favorite video of Soja">Favorite video</a></li>
+                <li><a href="#review" title="Song Review ni Soja">Song review</a></li>
+                <li><a href="#form" title="Application">Application for Soja's Shawty</a></li>
+            </ul>
+        </nav>
+        <section id="about">
+            <h3>About Soja</h3>
+            <p>Hello I'm Soja, ang pinakapoging pusa sa Etivac. Wassup wassup yo</p>
+            <ul>
+                <li>Age: 4 yrs old</li>
+                <li>Color: Orange </li>
+                <li>Size: Macho</li>
+            </ul>
+            <details open><!---Attribute used: open--->
+                <summary>Fun facts</summary>
+                <p>Soja is a cat.</p>
+                <p>Cat is Soja.</p>
+            </details>
+        </section>
+        <section id="gallery">
+            <h3>Soja Gallery</h3>
+            <figure>
+                <img src="soja1.jpg" alt="soja nakahiga" width="150px" height="200px">
+            </figure>
+            <figure>
+                <img src="soja2.jpg" alt="soja nakadungaw" width="150px" height="200px">
+            </figure>
+            <figure>
+                <img src="soja3.jpg" alt="soja tulog" width="150px" height="200px">
+            </figure>
+        </section>
+        <section id="videos">
+            <h3>Favorite video ni Soja</h3> <!--Attributes used: width, height, src, title, frameborder, allow, allowfullscreen-->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qW-KIjHjjHM?si=dEVN6h8PdJmOKBej" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <section id="review">
+            <p>Let's sing <em>Meow by Lvusm</em></p>
+            <br>
+            <pre>Lyrics
+                Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
+                Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
+                meow meow meow meow meow meow 
+                mеow meow meow
+                Meow mеow meow meow meow
+                Meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow meow
+                Meow
+            </pre>
+            </br>
+            <audio controls loop> <!---Attributes used: controls, loop-->
+                <source src ="meow.mp3" type="audio/mpeg"> <!---Attributes used: src, type-->
+            </audio>
+            <p><strong>Song Review by Soja the Cat</strong></p>
+            <table border="1"> <!-- Attributes used: border -->
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Storytelling</td>
+                        <td>10/10</td>
+                    </tr>
+                    <tr>
+                        <td>Lyrics</td>
+                        <td>10/10</td>
+                    </tr>
+                    <tr>
+                        <td>Voice</td>
+                        <td>1000000/10</td>
+                    </tr>
+                    <tr>
+                        <td>Beat</td>
+                        <td>100/10</td>
+                    </tr>
+                    <tr>
+                        <td>Cat's Opinion</td>
+                        <td>110101010101010/10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <section>
+            <h3>Favorite sirain ni Soja </h3>
+                <ol type="1"> <!---Attribute used: type-->
+                    <li>Upuan</li>
+                    <li>Papel</li>
+                    <li>Buhay ng mga daga</li>
+                    <li>Buhay ng mga pusang barako</li>
+                    <li>Buhay ng amo ko </li>
+                </ol>
+        </section>
+        <section>
+            <h3>Favorite na pagkain ni Soja</h3>
+                <ul style="line-height: 100%" type="square"> <!---Attributes used: style, type-->
+                    <li>Sheba Chicken - 10/10</li>
+                    <li>Ciao Scallops - 10/10</li>
+                    <li>Whiskas Tuna - 10/10</li>
+                </ul>
+        </section>
+        <fieldset>
+            <legend><b>Hulaan mo lahi ko</b></legend> <!--Attributes used: type, name, id, for-->
+            <input type="radio" name="breed" id="persian"/>
+            <label for="persian">Persian</label>
+            <br />
+            <input type="radio" name="breed" id="siamese"/>
+            <label for="siamese">Siamese</label>
+            <br />
+            <input type="radio" name="breed" id="doraemon"/>
+            <label for="doraemon">Doraemon</label>
+            </br>
+            <button type="submit">Submit</button>
+        </fieldset>
+        <section id="form">
+            <h3>Application for Soja's Shawty</h3> <!---Attributes used: id, action, for, type, name, required, rows, cols,-->
+            <form action="heh.html">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+                <br>
+                <label for="color">Color:</label>
+                <input type="text" id="color" name="color" required>
+                <br>
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4" cols="50" required></textarea>
+                <br>
+                <button type="submit" name="submit" value="Submit">Submit</button>
+                <button type="reset">Clear</button>
+            </form>   
+        </section>
+    </body>
+</html>
